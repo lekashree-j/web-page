@@ -1,38 +1,107 @@
-.App {
-  text-align: center;
-}
+body{
+  background-image: url('./static/bg.jpeg');
+  background-repeat: no-repeat;
+    background-size: cover;
+  background-color: #fbfbfb;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.header{
+    background-color: #192444;
+    color:white;
+    font-size: 25px;
+    height:50px;
+    padding:10px 0px 10px 20px;
 }
+.sign {
+text-align: center;
+margin-top: 250px;
+margin-left: 460px;
 
-.App-link {
-  color: #61dafb;
 }
+#mail{
+    margin-right: 390px;
+font-family:Arial ;
+color: #6f7986;
+font-size: medium;
+    padding-left: 100px;
+}
+#psd{
+margin-right: 290px;
+    font-family:Arial ;
+    color: #6f7986;
+    font-size: medium;
+    padding-left: 92px;
+}
+#psin{
+    margin-top: 240px;
+    font-size: 40px;
+    color: #273339;
+    padding: 10px;
+    font-family: "Calibri Light";
+    text-align: center;
+    font-weight: bolder;
+    font-size-adjust: initial;
+}
+#email{
+    border-radius: 4px;
+    padding: 5px 40px 5px 30px;
+    background-color: #e8ebef;
+    width: 330px;
+    color: #192444;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+#newpsd{
+    border-radius: 4px;
+    padding: 5px 40px 5px 30px;
+    background-color: #e8ebef;
+    width: 330px;
+    color: #192444;
+
+}
+#remb{
+    color: #959595;
+    margin-right: 200px;
+}
+#forgot{
+    color: #959595;
+}
+#btn{
+    background-color: #192444;
+    color:white;
+    padding: 5px 150px 5px 150px;
+    border-radius: 5px;
+}
+#para{
+    color:#192444;
+    font-family: SansSerif;
+    font-weight: bolder;
+    font-size:xx-large;
+
+
+
+}
+#p2{
+
+    color: #192444;
+    font-family: SansSerif;
+    font-weight: bolder;
+    font-size: xx-large;
+    text-align: center;
+    margin-top: -250px;
+    padding-right: 450px;
+
+
+}
+#p3{
+
+    color: #6f7986;
+    font-family: SansSerif;
+    font-weight: bolder;
+    font-size: xx-large;
+    text-align: center;
+    margin-top: -70px;
+    padding-right: 450px;
+
+
 }
